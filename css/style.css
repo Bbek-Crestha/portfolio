@@ -159,9 +159,11 @@ nav ul li {
 /* about me section */
 
 .about {
-	padding: 5rem;
+	padding: 9rem;
+	margin-top: 2rem;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 4rem;
 }
 
@@ -216,13 +218,13 @@ nav ul li {
 /* what i do */
 
 .what-i-do {
-	padding: 3rem;
+	padding: 5rem;
 }
 
 .what-i-do > h1 {
 	font-size: 2rem;
 	text-align: center;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 }
 
 .cards {
@@ -238,6 +240,7 @@ nav ul li {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	text-align: center;
 }
 
 .card-topic {
@@ -246,19 +249,19 @@ nav ul li {
 }
 
 .card-icon1 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	font-weight: bold;
 	color: purple;
 }
 
 .card-icon2 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	font-weight: bold;
 	color: #eb1e39;
 }
 
 .card-icon3 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	font-weight: bold;
 	color: #3835d8;
 }
@@ -272,15 +275,65 @@ nav ul li {
 .projects > h1 {
 	text-align: center;
 	font-size: 2rem;
-}
-
-.project-cards {
-	display: flex;
-	flex-wrap: wrap;
+	margin-bottom: 3rem;
 }
 
 .project-card {
-	width: 25rem;
 	padding: 0.5rem 1rem;
 	background-color: var(--card-bg);
+	display: flex;
+}
+
+.project-img-container {
+	width: 50rem;
+}
+
+.project-img {
+	width: 100%;
+}
+
+.project-text {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: end; */
+	align-items: flex-end;
+	gap: 1rem;
+	width: 40%;
+}
+
+.featured {
+	color: #009ccc;
+	font-style: italic;
+	font-size: 1rem;
+	text-align: right;
+}
+
+.project-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.project-body {
+	width: 120%;
+	background-color: var(--bg-color);
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+}
+
+.project-skills {
+	display: flex;
+	justify-content: end;
+	flex-wrap: wrap;
+}
+
+.project-footer {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+
+.mr-1 {
+	margin-right: 1rem;
 }
